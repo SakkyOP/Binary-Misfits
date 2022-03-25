@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1920px){
+    .games{
+        row-gap: 69px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .games{
+        row-gap: 80px;
+    }
+}
+
+@media only screen and (min-width: 3840px){
+    .games{
+        row-gap: 130px;
+    }
+}
+
+
+/* Non-standard media query~ Ishaan */
+@media only screen and (min-width: 913px){ 
+    .games{
+        row-gap: 50px;
+    }
+
+    .heading{
+        justify-content: flex-start;
+    }      
+}
+
+@media only screen and (min-width: 600px) and (max-width: 913px){
+    .games{
+        width: 80%;
+        row-gap: 35px;
+    }
+
+    .heading{
+        justify-content: flex-start;
+    }
+}
