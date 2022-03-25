@@ -81,7 +81,7 @@
 }
 
 .gameSection{
-    padding: 10em 0;
+    padding: 20rem 0;
 }
 
 .heading{
@@ -115,7 +115,7 @@
     height: clamp(150px, 22vh, 320px); 
     background-position: center;
     background-size: cover;
-    padding-bottom: 5.5em;
+    padding-bottom: 10rem;
 }
 
 .upperImage{
@@ -124,5 +124,5 @@
     height: clamp(150px, 22vh, 320px);
     background-position: center;
     background-size: cover;
-    padding-top: 5.5em;
+    padding-top: 10rem;
 } 
