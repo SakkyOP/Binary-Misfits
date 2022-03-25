@@ -43,7 +43,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 4px 6px 12px;
+    box-shadow: 0px 0px 12px;
     transition: all ease-in-out 0.25s;
     transform: scale(1);
 }
