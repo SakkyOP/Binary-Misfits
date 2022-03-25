@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url('/Fonts/MinecraftTen.ttf');
+}
+
+@font-face {
+    font-family: 'Forte';
+    src: url('/Fonts/FORTE.TTF');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('/Images/header_wave.png');
+    background-size: 100vw clamp(36vw,46vw,48vw);
+    background-repeat: no-repeat;
+}
+
+.home-section-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* HOME SECTION TOP */
+
+
+.home-section-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-2{
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: clamp(40px,10vw,124px);
+    /* height: clamp(40px,16vw,120px); */
+    /* Black shadow with 10px blur */
+    filter: drop-shadow(0px 0px 6px black);
+
+}
+
+#logo-text {
+    font-family: "MinecraftTen";
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-left: 6px;
+    /* white-space: nowrap; */
+    font-size: clamp(1.5rem,3.5vw,4rem);
+    text-shadow: 0px 0px 8px #000;
+    margin-top: -10px;
+}
+
+
+
+#nav-ul-mobile{
+    display: none;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+#nav-ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -10px;
+    /* width: clamp(400px, 10vw, 800px); */
+}
+
+
+#nav-ul-mobile > li {
+    list-style: none;
+    margin: 1rem;
+}
+
+#nav-ul > li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+#nav-ul-mobile > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 4px;
+    white-space: nowrap;
+}
+
+#nav-ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: clamp(0.5rem,2vw,1.6rem);
+    padding: 4px;
+    white-space: nowrap;
+}
+
+#nav-ul-mobile > li > a:hover{
+    border-bottom: 4px solid white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#nav-ul > li > a:hover{
+    border-bottom: 4px solid white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#nav-ul-mobile > li > a.active{
+    border-bottom: 4px solid white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#nav-ul > li > a.active{
+    border-bottom: 4px solid white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.hamburger{
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.hamburger:focus{
+    outline: none;
+}
+
+#mobile{
+    display: none;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5C09FA;
+}
+
+
+/* HOME SECTION MIDDLE */
+
+#home-section-middle{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mid-1{
+    font-size: clamp(1rem,3.6vw,6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+    padding-right: clamp(1rem,2rem,4rem);
+}
+
+
+#T1{
+    /* font-family: "Forte"; */
+    font-family: "MinecraftTen";
+    color: white;
+    text-shadow: 0px 0px 8px #000;
+}
+
+
+
+#T2{
+    /* font-family: "Forte"; */
+    font-family: "MinecraftTen";
+    -webkit-text-fill-color: #5C09FA; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white; 
+    color: white;
+    text-shadow: 0px 0px 8px #000;
+
+}
+
+.mid-2 > img{
+    width: clamp(480px,48vw,1800px);
+}
+
+/* HOME SECTION BOTTOM */
+
+#home-section-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#bot-arrow{
+    width: 160px;
+    margin-top: -10px;
+}
+
+#close{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#close:focus{
+    outline: none;
+}
+
+
+/* FOOTER */
+
+.footer-section{
+    /* width: 100%;
+    height: 100%; */
+    background-image: url('/Images/Footer_BG.png');
+    background-size: 100vw clamp(32vw,100vh,80vw);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 8vw 0;
+}
+
+.footer-section-container{
+    padding-top: clamp(6rem,8vw,10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-heading{
+    font-family: "Forte";
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */ 
+    text-shadow: 0px 0px 8px #000;
+    font-size: clamp(1rem,8vw,6rem);
+}
+
+
+.footer-text-field{
+    border-radius: 1rem;
+    border-bottom-style: none;
+    padding: 0 1vw;
+    width: 40vw;
+    height: 6vh;
+    outline: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5C09FA;
+
+}
+
+.footer-text-field::placeholder{
+    color: transparent;
+}
+
+.footer-text-field:focus{
+    outline: none;
+}
+
+.social-links{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 2rem 0;
+    color: white;
+    font-size: clamp(1rem,3vw,6rem);
+    /* font-size: 3rem; */
+    border-bottom: solid 10px white;
+    border-radius: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.s-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: clamp(1rem,3vw,6rem);
+}
+.s-icons > a{
+    color: white;
+}
+
+.i:hover{
+    color:#F56040;
+    text-shadow: 0px 0px 8px #000;
+}
+
+.f:hover{
+    color:#4267B2;
+    text-shadow: 0px 0px 8px #000;
+}
+
+.y:hover{
+    color:#FD1D1D;
+    text-shadow: 0px 0px 8px #000;
+}
+
+.t:hover{
+    color:#1DA1F2;
+    text-shadow: 0px 0px 8px #000;
+}
+
+.s-icons > a > i {
+    margin: 2rem 2rem;
+}
+
+.sumbit{
+    border: solid 4px white;
+    background: transparent;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+}
+
+/* MEDIA QUERRY */
+
+@media screen and (max-width: 768px){
+
+    .home-section{
+        background-size: 100vw clamp(20vh,80vh,100vh);
+        padding-top: 0.5rem;
+    }
+    .mid-1{
+        font-size: clamp(1rem,8vw,6rem);
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 2rem;
+    }
+
+    .mid-2 > img{
+        width: clamp(260px,60vw,1800px);
+    }
+
+    .home-section{
+        flex-direction: column;
+    }
+    #mobile.show{
+        display: flex;
+        position: fixed;
+    }
+
+    #nav-ul{
+        display: none;
+    }
+
+
+    #nav-ul-mobile.show{
+        display: flex;
+    }
+
+    #nav-ul-mobile > li > a{
+        font-size: 2rem;
+    }
+
+    .top-1{
+        justify-content: space-around;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+
+    /* #nav-ul.show{
+        display: flex;
+    } */
+
+    #home-section-middle{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section{
+        padding-bottom: 1rem;
+        background-size: 100vw 62vh;
+
+    }
+
+    .social-links{
+        font-size: clamp(1rem,5vw,6rem);
+    }
+
+    .s-icons{
+        font-size: clamp(1rem,5vw,6rem);
+    }
+
+}
+
+@media screen and (max-width: 682px){
+    .home-section{
+        background-size: 100vw clamp(20vh,58vh,100vh);
+        padding-top: 0.5rem;
+    }
+}
