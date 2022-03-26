@@ -44,7 +44,7 @@ export default class Game {
                 this.paddle,
                 this.ball
             ]
-            
+            this.currentLevel = 0;
             buildLevel(this,this.levels[this.currentLevel]);
             this.gamestate = GAMESTATE.RUNNING;
         }
