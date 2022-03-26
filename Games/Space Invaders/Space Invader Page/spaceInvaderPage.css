@@ -97,7 +97,11 @@ li{
 }
 
 .backToHomePage:hover i{
-    color: red;
+    color: #5C09FA;
+}
+
+.backToHomePage > i {
+    margin-top: -6px;
 }
 
 .card{
@@ -163,7 +167,10 @@ li{
 
 .play:hover{
     border-color: transparent;
-    background-color: red;
+    background-color: #5C09FA;
+}
+.backToHomePage:hover i, .backToHomePage:hover h3{
+    color: #5C09FA;
 }
 
 
