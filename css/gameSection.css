@@ -27,6 +27,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .consoleIcon{
@@ -111,7 +112,7 @@
 }
 
 .lowerImage{
-    background-image: url(/Images/wave\ \(1\).png);
+    background-image: url(/Images/wave2.png);
     background-repeat: no-repeat;
     height: clamp(150px, 22vh, 320px); 
     background-position: center;
