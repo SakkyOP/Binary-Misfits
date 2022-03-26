@@ -173,13 +173,13 @@
     }
 
     .lowerImage{
-        background-image: url(Images/wave2.png);
+        background-image: url('/Images/wave2.png');
         background-repeat: round;
         height: clamp(200px, 22vh, 320px); 
     }
 
     .upperImage{
-        background-image: url(Images/wave.png);
+        background-image: url('/Images/wave.png');
         background-repeat: round;
         height: clamp(150px, 22vh, 320px);
     }
