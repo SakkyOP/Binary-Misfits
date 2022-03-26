@@ -14,27 +14,27 @@ TAGS USED :
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face {
     font-family:'Aero';
-    src: url('../fonts/Aero.ttf');
+    src: url('Fonts/Aero.ttf');
 }
 @font-face {
     font-family:'Forte';
-    src: url('../fonts/FORTE.TTF');
+    src: url('Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('../fonts/Helvetica.ttf');
+    src: url('Fonts/Helvetica.ttf');
 }
 @font-face {
     font-family:'Maldini';
-    src: url('../fonts/MALDINI-NORMAL.otf');
+    src: url('Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('../fonts/Minecraft.ttf');
+    src: url('Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
-    src: url('../fonts/Roboto-Regular.ttf');
+    src: url('Fonts/Roboto-Regular.ttf');
 }
 
 * {
@@ -51,7 +51,7 @@ TAGS USED :
     place-items: center;
     min-height: fit-content;
     height: 100vh;
-    background-image: url(/Images/contactus_PAGE_BG.png);
+    background-image: url(Images/contactus_PAGE_BG.png);
     background-size: auto 100vh;  /* media query used for this auto changes to 100vw after 1400px */
     background-repeat: no-repeat; 
 }

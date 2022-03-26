@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'MinecraftTen';
-    src: url('/Fonts/MinecraftTen.ttf');
+    src: url('Fonts/MinecraftTen.ttf');
 }
 
 @font-face {
     font-family: 'Forte';
-    src: url('/Fonts/FORTE.TTF');
+    src: url('Fonts/FORTE.TTF');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -18,7 +18,7 @@
 .home-section{
     display: flex;
     justify-content: space-around;
-    background-image: url('/Images/header_wave.png');
+    background-image: url('Images/header_wave.png');
     background-size: 100vw clamp(36vw,46vw,48vw);
     background-repeat: no-repeat;
 }
@@ -234,7 +234,7 @@
 .footer-section{
     /* width: 100%;
     height: 100%; */
-    background-image: url('/Images/Footer_BG.png');
+    background-image: url('Images/Footer_BG.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
