@@ -30,26 +30,22 @@
     text-decoration: none;
 }
 
-.consoleIcon{
-    /* height: clamp(60px, 6vw, 230px); */
-    width: clamp(60px, 6vw, 230px);
-}
 
-.gameCard{
+.blogCard{
     height: clamp(200px, 18vw, 700px);
-    width: clamp(200px, 18vw, 700px);
+    width: clamp(400px, 45vw, 1200px);
     border-radius: 30px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0px 0px 12px;
     transition: all ease-in-out 0.25s;
     transform: scale(1);
 }
 
-.gameCard:hover{
+.blogCard:hover{
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
     transform: scale(0.85);
@@ -57,21 +53,19 @@
     cursor: pointer;
 }
 
-.gameImage{
-    width: clamp(120px, 12vw, 420px);
-}
-
-.gameName{
+.blogName{
     font-family: "Aero", serif;
+    width: 90%;
+    text-align: left;
     color: #5C09FA;
     margin-top: 5%;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
 }
 
-.games{
+.blogs{
     margin-top: 0.7%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
@@ -81,8 +75,22 @@
     padding-bottom: 5%;
 }
 
-.gameSection{
+.blogSection{
     margin: 10rem 0;
+}
+
+.blogText{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-align: justify;
+    margin: 0 40px;
+    max-height: 4.875rem;
+    overflow: hidden;
+}
+
+.consoleIcon{
+    /* height: clamp(60px, 6vw, 230px); */
+    width: clamp(60px, 6vw, 230px);
 }
 
 .heading{
@@ -103,16 +111,16 @@
     padding-top: 0.4rem;
 }
 
-.homeGameSection{
-    background-image: linear-gradient(to bottom, #6A11F6, #801DF0);
+.homeBlogSection{
+    background-image: linear-gradient(to bottom, #801DF0, #7316F4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.gameSectionLowerImage{
-    background-image: url('/Binary-Misfits/Images/gameWaveDown.png')!important; 
+.lowerImage{
+    background-image: url('/Binary-Misfits/Images/blogWaveDown.png')!important; 
     background-repeat: no-repeat;
     height: clamp(150px, 18vh, 320px); 
     background-position: top;
@@ -121,8 +129,16 @@
     margin-top: -2px;
 }
 
-.gameSectionUpperImage{
-    background-image: url('/Binary-Misfits/Images/gameWaveUp.png')!important;
+.readMore{
+    font-family: "Roboto", sans-serif;
+    color: #5C09FA;
+    width: 90%;
+    text-align: right;
+    /* margin-bottom: 20px; */
+}
+
+.upperImage{
+    background-image: url('/Binary-Misfits/Images/blogWaveUp.png')!important;
     background-repeat: no-repeat;
     height: clamp(150px, 18vh, 320px);
     background-position: bottom;
@@ -130,3 +146,45 @@
     padding-top: 9.55rem;
     margin-bottom: -2px;
 } 
+
+
+@media only screen and (min-width: 1920px){
+    .blogs{
+        row-gap: 69px;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .blogs{
+        row-gap: 80px;
+    }
+}
+
+@media only screen and (min-width: 3840px){
+    .blogs{
+        row-gap: 130px;
+    }
+}
+
+
+/* Non-standard media query~ Ishaan */
+@media only screen and (min-width: 913px){ 
+    .blogs{
+        row-gap: 50px;
+    }
+
+    .heading{
+        justify-content: flex-start;
+    }      
+}
+
+@media only screen and (min-width: 600px) and (max-width: 913px){
+    .blogs{
+        width: 80%;
+        row-gap: 35px;
+    }
+
+    .heading{
+        justify-content: flex-start;
+    }
+}

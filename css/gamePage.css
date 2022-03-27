@@ -118,6 +118,13 @@ a{
     justify-content: center;
     align-content: center;
     align-items: center;
+    max-width: 9.4rem;
+}
+
+.gamePageLowerImage{
+    background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
+    background-repeat: round;
+    height: clamp(200px, 22vh, 320px); 
 }
 
 .games{
@@ -176,14 +183,14 @@ a{
         padding: 0 0.8rem 0 1rem;
     }
 
-    .lowerImage{
-        background-image: url('/Binary-Misfits/Images/wave2.png');
+    .gamePageLowerImage{
+        background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
         background-repeat: round;
         height: clamp(200px, 22vh, 320px); 
     }
 
-    .upperImage{
-        background-image: url('/Binary-Misfits/Images/wave.png');
+    .gamePageUpperImage{
+        background-image: url('/Binary-Misfits/Images/gameWaveUp.png');
         background-repeat: round;
         height: clamp(150px, 22vh, 320px);
     }
@@ -245,6 +252,8 @@ a{
     .controllersImageForSides{
         transform: scale(0.95) rotateZ(15deg);
         width: 80vh;
+        /* position: fixed; */
+        /* position: -webkit-sticky; */
     }
 
     .gameArea{
@@ -269,12 +278,12 @@ a{
     }
 
     .gamePage{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .games{
         align-items: flex-start;
-        max-height: 65vh; /*yaha pe carousel aayega warna remove max height*/
+        /* max-height: 65vh; yaha pe carousel aayega warna remove max height */
         padding-bottom: 1.2%;
     }
 
@@ -289,8 +298,7 @@ a{
         height: 92vh;
         width: 100%;
         background-repeat: no-repeat;
-        margin-top: -3.4vh;
-        right: 1vw;
+        top: 20px;
     }
 
     .rightSideImage{
@@ -298,11 +306,10 @@ a{
         width: 100%;
         background-repeat: no-repeat;
         left: 1vw;
-        margin-top: -10vh;
     }    
 }
 
-@media only screen and (min-width:1024px){
+/* @media only screen and (min-width:1024px){
     .actualGames{
         max-height: 70vh;
         max-width: 35vw;
@@ -342,4 +349,4 @@ a{
         padding-right: 1.3rem;
     }
 
-}
+} */
