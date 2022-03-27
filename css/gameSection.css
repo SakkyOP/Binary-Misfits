@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face {
     font-family:'Aero';
-    src: url('../Fonts/Aero.ttf');
+    src: url('/Binary-Misfits/Fonts/Aero.ttf');
 }
 @font-face {
     font-family:'Forte';
-    src: url('../Fonts/FORTE.TTF');
+    src: url('/Binary-Misfits/Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('../Fonts/Helvetica.ttf')
+    src: url('/Binary-Misfits/Fonts/Helvetica.ttf')
 }
 @font-face {
     font-family:'Maldini';
-    src: url('../Fonts/MALDINI-NORMAL.otf');
+    src: url('/Binary-Misfits/Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('../Fonts/Minecraft.ttf');
+    src: url('/Binary-Misfits/Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
-    src: url('../Fonts/Roboto-Regular.ttf');
+    src: url('/Binary-Misfits/Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -112,7 +112,7 @@
 }
 
 .lowerImage{
-    background-image: url('../Images/wave2.png')!important; 
+    background-image: url('/Binary-Misfits/Images/wave2.png')!important; 
     background-repeat: no-repeat;
     height: clamp(150px, 22vh, 320px); 
     background-position: center;
@@ -121,7 +121,7 @@
 }
 
 .upperImage{
-    background-image: url('../Images/wave.png')!important;
+    background-image: url('/Binary-Misfits/Images/wave.png')!important;
     background-repeat: no-repeat;
     height: clamp(150px, 22vh, 320px);
     background-position: center;
