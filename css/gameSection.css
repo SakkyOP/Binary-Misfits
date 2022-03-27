@@ -114,10 +114,10 @@
 .lowerImage{
     background-image: url('/Binary-Misfits/Images/wave2.png')!important; 
     background-repeat: no-repeat;
-    height: clamp(150px, 22vh, 320px); 
+    height: clamp(150px, 18vh, 320px); 
     background-position: top;
     background-size: 100vw;
-    padding-bottom: 10rem;
+    padding-bottom: 9.55rem;
 }
 
 .upperImage{

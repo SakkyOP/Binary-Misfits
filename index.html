@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- <base href="/Binary-Misfits/"> -->
     <meta charset="UTF-8">
@@ -10,147 +11,201 @@
     <link rel="stylesheet" href="../Binary-Misfits/css/gameSection.css">
     <link rel="stylesheet" href="../Binary-Misfits/css/gameSectionMediaQuery.css">
 </head>
+
 <body>
-<section class="home-section">
-    <div class="home-section-container">
-        <div id="home-section-top">
-            <div class="top-1">
-                <div class="top-2">
-                <!-- logo (packman) -->
-                <img id="logo" src="/Binary-Misfits/Images/logo.png">
-                <!-- logo-text -->
-                <h1 id="logo-text">ARCADE MISFITS</h1>
+    <section class="home-section">
+        <div class="home-section-container">
+            <div id="home-section-top">
+                <div class="top-1">
+                    <div class="top-2">
+                        <!-- logo (packman) -->
+                        <img id="logo" src="/Binary-Misfits/Images/logo.png">
+                        <!-- logo-text -->
+                        <h1 id="logo-text">ARCADE MISFITS</h1>
+                    </div>
+                    <div class="top-3">
+                        <button class="hamburger" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <ul id="nav-ul">
+                            <li><a class="active" href="/Binary-Misfits/index.html">Home</a></li>
+                            <li><a href="/Binary-Misfits/pages/gamePage.html">Games</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="/Binary-Misfits/pages/out_team.html">Our Team</a></li>
+                            <li><a href="/Binary-Misfits/pages/contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="top-3">
-                    <button class="hamburger" id="hamburger">
-                        <i class="fas fa-bars"></i>
+            </div>
+            <div id="mobile">
+                <ul id="nav-ul-mobile">
+                    <li><a class="active" href="/Binary-Misfits/index.html">Home</a></li>
+                    <li><a href="/Binary-Misfits/pages/gamePage.html">Games</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="/Binary-Misfits/pages/out_team.html">Our Team</a></li>
+                    <li><a href="/Binary-Misfits/pages/contact-us.html">Contact Us</a></li>
+                    <button id="close">
+                        <i class="fas fa-times"></i>
                     </button>
-                    <ul id="nav-ul">
-                        <li><a class="active" href="/Binary-Misfits/index.html">Home</a></li>
-                        <li><a  href="/Binary-Misfits/pages/gamePage.html">Games</a></li>
-                        <li><a  href="#">Blogs</a></li>
-                        <li><a  href="/Binary-Misfits/pages/out_team.html">Our Team</a></li>
-                        <li><a  href="/Binary-Misfits/pages/contact-us.html">Contact Us</a></li>
-                    </ul>
+                </ul>
+            </div>
+            <script src="/Binary-Misfits/src/home.js"></script>
+            <div id="home-section-middle">
+                <div class="mid-1">
+                    <!-- Arr You Ready TEXT -->
+                    <h1 id="T1">Playing is</h1>
+                    <h1 id="T2">believing!!!</h1>
+                </div>
+                <div class="mid-2">
+                    <!-- SVG IMAGE -->
+                    <img src="/Binary-Misfits/Images/gamepad.svg">
                 </div>
             </div>
-        </div>
-        <div id="mobile">
-            <ul id="nav-ul-mobile">
-                <li><a class="active" href="/Binary-Misfits/index.html">Home</a></li>
-                <li><a  href="/Binary-Misfits/pages/gamePage.html">Games</a></li>
-                <li><a  href="#">Blogs</a></li>
-                <li><a  href="/Binary-Misfits/pages/out_team.html">Our Team</a></li>
-                <li><a  href="/Binary-Misfits/pages/contact-us.html">Contact Us</a></li>
-                <button id="close">
-                    <i class="fas fa-times"></i>
-                </button>
-            </ul>
-        </div>
-        <script src="/Binary-Misfits/src/home.js"></script>
-        <div id="home-section-middle">
-            <div class="mid-1">
-                <!-- Arr You Ready TEXT -->
-                <h1 id="T1">Playing is</h1>
-                <h1 id="T2">believing!!!</h1>
-            </div>
-            <div class="mid-2">
-                <!-- SVG IMAGE -->
-                <img src="/Binary-Misfits/Images/gamepad.svg">
+            <div id="home-section-bottom">
+                <!-- Image Bottom Arrow "->" -->
+                <a href="#gameSection">
+                    <img id="bot-arrow" src="/Binary-Misfits/Images/home-arrow.png">
+                </a>
             </div>
         </div>
-        <div id="home-section-bottom">
-            <!-- Image Bottom Arrow "->" -->
-            <a href="#gameSection" >
-                <img id="bot-arrow" src="/Binary-Misfits/Images/home-arrow.png">
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- gaming section start by Ishaan Bhalla -->
-<section class="gameSection">
-    <div class="upperImage"></div>
-    <div id="gameSection" class="homeGameSection">
-        <div class="heading">
-            <div class="icon">
-                <img class="consoleIcon" 
-                src="/Binary-Misfits/Images/Section_GamePad_image.png">
+    <!-- gaming section start by Ishaan Bhalla -->
+    <section class="gameSection">
+        <div class="upperImage"></div>
+        <div id="gameSection" class="homeGameSection">
+            <div class="heading">
+                <div class="icon">
+                    <img class="consoleIcon" src="/Binary-Misfits/Images/Section_GamePad_image.png">
+                </div>
+                <div class="headingText">GAMES</div>
             </div>
-            <div class="headingText">GAMES</div>
+            <div class="games">
+                <a href="/Binary-Misfits/Games/Flappy Bird/Flappy Bird Page/flappyBirdPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Images/unknown.png">
+                        <div class="gameName">Flappy Bird</div>
+                    </div>
+                </a>
+                <a href="/Binary-Misfits/Games/PacMan/Pacman Page/pacmanPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Images/Pac-Man-logo-3E5987B905-seeklogo.com.png">
+                        <div class="gameName">Pac-Man</div>
+                    </div>
+                </a>
+                <a href="/Binary-Misfits/Games/Brick Breaker/Brick Breaker Page/brickBreakerPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Games/Brick Breaker/brickbreaker.png">
+                        <div class="gameName">Brick Breaker</div>
+                    </div>
+                </a>
+                <a href="/Binary-Misfits/Games/Snake/Snake Page/snakePage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Games/Snake/snake.png">
+                        <div class="gameName">Snake</div>
+                    </div>
+                </a>
+                <a href="/Binary-Misfits/Games/Tetris/Tetris Page/tetrisPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Games/Tetris/tetris.png">
+                        <div class="gameName">Tetris</div>
+                    </div>
+                </a>
+                <a href="/Binary-Misfits/Games/Space Invaders/Space Invader Page/spaceInvaderPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Binary-Misfits/Images/pngwing.com.png">
+                        <div class="gameName">Space Invaders</div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="games">
-            <a href="/Binary-Misfits/Games/Flappy Bird/Flappy Bird Page/flappyBirdPage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Images/unknown.png">
-                    <div class="gameName">Flappy Bird</div>
-                </div>
-            </a>
-            <a href="/Binary-Misfits/Games/PacMan/Pacman Page/pacmanPage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Images/Pac-Man-logo-3E5987B905-seeklogo.com.png">
-                    <div class="gameName">Pac-Man</div>
-                </div>
-            </a>
-            <a href="/Binary-Misfits/Games/Brick Breaker/Brick Breaker Page/brickBreakerPage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Games/Brick Breaker/brickbreaker.png">
-                    <div class="gameName">Brick Breaker</div>
-                </div>
-            </a>
-            <a href="/Binary-Misfits/Games/Snake/Snake Page/snakePage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Games/Snake/snake.png">
-                    <div class="gameName">Snake</div>
-                </div>
-            </a>
-            <a href="/Binary-Misfits/Games/Tetris/Tetris Page/tetrisPage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Games/Tetris/tetris.png">
-                    <div class="gameName">Tetris</div>
-                </div>
-            </a>
-            <a href="/Binary-Misfits/Games/Space Invaders/Space Invader Page/spaceInvaderPage.html">
-                <div class="gameCard">
-                    <img class="gameImage" 
-                    src="/Binary-Misfits/Images/pngwing.com.png">
-                    <div class="gameName">Space Invaders</div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="lowerImage"></div>
-</section>
-<!-- gaming section end -->
+        <div class="lowerImage"></div>
+    </section>
+    <!-- gaming section end -->
 
-<section class="footer-section">
-    <div class="footer-section-container">
-        <div class="footer-main">
-            <h1 class="footer-heading"> Let's Connect!</h1>
-            <div class="footer-mid">
-                <input type="text" placeholder="" class="footer-text-field">
-                <button class="sumbit" id="submit">
-                    SUBMIT
-                </button>
+    <!-- Blog Section start~ Ishaan Bhalla -->
+    <section class="gameSection">
+        <div class="upperImage"></div>
+        <div id="gameSection" class="homeGameSection">
+            <div class="heading">
+                <div class="icon">
+                    <img class="consoleIcon" src="/Binary-Misfits/Images/Section_GamePad_image.png">
+                </div>
+                <div class="headingText">GAMING BLOGS</div>
             </div>
-            <label for="social-links" class="social-links">Social Media</label>
-            <div class="s-icons">
-                <a class="f" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                <a class="i" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="y" href="#"><i class="fab fa-youtube"></i></a>
-                <a class="t" href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="text-dis" style="color: white;">
-                We made this website for Hackathon Project.
+            <div class="games">
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Images/unknown.png"> -->
+                        <div class="gameName">Blog Heading 1</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Images/Pac-Man-logo-3E5987B905-seeklogo.com.png"> -->
+                        <div class="gameName">Blog Heading 2</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Games/Brick Breaker/brickbreaker.png"> -->
+                        <div class="gameName">Blog Heading 3</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Games/Snake/snake.png"> -->
+                        <div class="gameName">Blog Heading 4</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Games/Tetris/tetris.png"> -->
+                        <div class="gameName">Blog Heading 5</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="gameCard">
+                        <!-- <img class="gameImage" 
+                    src="/Binary-Misfits/Images/pngwing.com.png"> -->
+                        <div class="gameName">Blog Heading 6</div>
+                    </div>
+                </a>
             </div>
         </div>
-    </div>
-</section>
-<script src="https://kit.fontawesome.com/c476974dbd.js" crossorigin="anonymous"></script>
+        <div class="lowerImage"></div>
+    </section>
+    <!-- Blog section end -->
+
+    <section class="footer-section">
+        <div class="footer-section-container">
+            <div class="footer-main">
+                <h1 class="footer-heading"> Let's Connect!</h1>
+                <div class="footer-mid">
+                    <input type="text" placeholder="" class="footer-text-field">
+                    <button class="sumbit" id="submit">
+                        SUBMIT
+                    </button>
+                </div>
+                <label for="social-links" class="social-links">Social Media</label>
+                <div class="s-icons">
+                    <a class="f" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="i" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="y" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="t" href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="text-dis" style="color: white;">
+                    We made this website for Hackathon Project.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/c476974dbd.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
