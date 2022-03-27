@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face {
     font-family:'Aero';
-    src: url('/Fonts/Aero.ttf');
+    src: url('/Binary-Misfits/Fonts/Aero.ttf');
 }
 @font-face {
     font-family:'Forte';
-    src: url('/Fonts/FORTE.TTF');
+    src: url('/Binary-Misfits/Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('/Fonts/Helvetica.ttf');
+    src: url('/Binary-Misfits/Fonts/Helvetica.ttf');
 }
 @font-face {
     font-family:'Maldini';
-    src: url('/Fonts/MALDINI-NORMAL.otf');
+    src: url('/Binary-Misfits/Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
@@ -21,7 +21,7 @@
 }
 @font-face {
     font-family:'Roboto';
-    src: url('/Fonts/Roboto-Regular.ttf');
+    src: url('/Binary-Misfits/Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -36,7 +36,7 @@ a{
 body{
     color: white;
     font-family: "Roboto", sans-serif;
-    background-image: url(../pacman\ bg.jpg);
+    background-image: url(/Binary-Misfits/Games/PacMan/pacman\ bg.jpg);
     min-height: 100vh;
     height: fit-content;
     width: 100vw;
