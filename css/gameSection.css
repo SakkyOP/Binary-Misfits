@@ -115,16 +115,16 @@
     background-image: url('/Binary-Misfits/Images/wave2.png')!important; 
     background-repeat: no-repeat;
     height: clamp(150px, 22vh, 320px); 
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: 100vw;
     padding-bottom: 10rem;
 }
 
 .upperImage{
     background-image: url('/Binary-Misfits/Images/wave.png')!important;
     background-repeat: no-repeat;
-    height: clamp(150px, 22vh, 320px);
-    background-position: center;
-    background-size: cover;
+    height: clamp(150px, 18vh, 320px);
+    background-position: bottom;
+    background-size: 100vw;
     padding-top: 10rem;
 } 
