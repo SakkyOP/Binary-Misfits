@@ -65,12 +65,12 @@
 }
 
 .blogName{
-    font-family: "Aero", serif;
+    font-family: "Roboto", serif;
+    font-weight: 700;
     width: 90%;
     text-align: left;
     color: #5C09FA;
-    font-size: clamp(1.3rem, 1.5vw, 4.5rem);
-    /* text-decoration: underline; */
+    font-size: clamp(1.3rem, 1.8vw, 4.5rem);
     overflow: hidden;
 }
 
@@ -170,6 +170,16 @@
     .blogs{
         row-gap: 100px;
     }
+
+    .blogText{
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        color: black;
+        text-align: justify;
+        margin: 0px 40px 10px 0;
+        max-height: 10.8rem;
+        overflow: hidden;
+    }
 }
 
 @media only screen and (min-width: 3840px){
@@ -181,6 +191,10 @@
 
 /* Non-standard media query~ Ishaan */
 @media only screen and (min-width: 913px){ 
+    .blogCard{
+        padding: 10px;
+    }
+
     .blogs{
         row-gap: 50px;
     }
@@ -198,5 +212,11 @@
 
     .heading{
         justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .blogCard{
+        padding: 10px;
     }
 }
