@@ -70,7 +70,7 @@
     width: 90%;
     text-align: left;
     color: #5C09FA;
-    font-size: clamp(1.3rem, 1.8vw, 4.5rem);
+    font-size: clamp(1rem, 1.8vw, 4.5rem);
     overflow: hidden;
 }
 
@@ -98,6 +98,7 @@
     margin: 0px 40px 10px 0;
     max-height: 4.875rem;
     overflow: hidden;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 .consoleIcon{
@@ -218,5 +219,20 @@
 @media only screen and (max-width: 600px){
     .blogCard{
         padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .blogCard{
+        width: fit-content;
+        padding: 10px;
+    }
+
+    .blogImage{
+        display: none;
+    }
+
+    .blogText{
+        margin: 0 auto;
     }
 }
