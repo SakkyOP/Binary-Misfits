@@ -134,7 +134,7 @@
 .lowerImage{
     background-image: url('/Binary-Misfits/Images/blogdown.png')!important; 
     background-repeat: no-repeat;
-    height: clamp(150px, 18vh, 320px); 
+    height: 18vw; 
     background-position: top;
     background-size: 100vw;
     padding-bottom: 9.55rem;
@@ -152,7 +152,7 @@
 .upperImage{
     background-image: url('/Binary-Misfits/Images/blogup.png')!important;
     background-repeat: no-repeat;
-    height: clamp(150px, 18vh, 320px);
+    height: 18vw;
     background-position: bottom;
     background-size: 100vw;
     padding-top: 9.55rem;
