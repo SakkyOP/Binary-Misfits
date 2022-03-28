@@ -122,7 +122,7 @@ a{
 }
 
 .blogPageLowerImage{
-    background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
+    background-image: url('/Binary-Misfits/Images/blogdown.png');
     background-repeat: round;
     height: clamp(200px, 22vh, 320px); 
 }
@@ -132,7 +132,7 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #6A11F6, #801DF0);
+    background-image: linear-gradient(to bottom, #801DF0, #7316F4);
 }
 
 .heading{
@@ -195,13 +195,13 @@ a{
     }
 
     .blogPageLowerImage{
-        background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
+        background-image: url('/Binary-Misfits/Images/blogdown.png');
         background-repeat: round;
         height: clamp(200px, 22vh, 320px); 
     }
 
     .blogPageUpperImage{
-        background-image: url('/Binary-Misfits/Images/gameWaveUp.png');
+        background-image: url('/Binary-Misfits/Images/blogup.png');
         background-repeat: round;
         height: clamp(150px, 22vh, 320px);
     }

@@ -121,7 +121,7 @@
 }
 
 .lowerImage{
-    background-image: url('/Binary-Misfits/Images/blogWaveDown.png')!important; 
+    background-image: url('/Binary-Misfits/Images/blogdown.png')!important; 
     background-repeat: no-repeat;
     height: clamp(150px, 18vh, 320px); 
     background-position: top;
@@ -139,7 +139,7 @@
 }
 
 .upperImage{
-    background-image: url('/Binary-Misfits/Images/blogWaveUp.png')!important;
+    background-image: url('/Binary-Misfits/Images/blogup.png')!important;
     background-repeat: no-repeat;
     height: clamp(150px, 18vh, 320px);
     background-position: bottom;

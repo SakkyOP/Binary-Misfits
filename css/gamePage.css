@@ -132,7 +132,7 @@ a{
 }
 
 .gamePageLowerImage{
-    background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
+    background-image: url('/Binary-Misfits/Images/gamedown.png');
     background-repeat: round;
     height: clamp(200px, 22vh, 320px); 
 }
@@ -194,13 +194,13 @@ a{
     }
 
     .gamePageLowerImage{
-        background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
+        background-image: url('/Binary-Misfits/Images/gamedown.png');
         background-repeat: round;
         height: clamp(200px, 22vh, 320px); 
     }
 
     .gamePageUpperImage{
-        background-image: url('/Binary-Misfits/Images/gameWaveUp.png');
+        background-image: url('/Binary-Misfits/Images/gameup.png');
         background-repeat: round;
         height: clamp(150px, 22vh, 320px);
     }
