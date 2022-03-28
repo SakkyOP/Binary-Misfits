@@ -13,4 +13,5 @@ submitButton.addEventListener("click",event=>{
     [...document.getElementsByClassName("textbox")].forEach(element => {
         element.value = "";
     });
+    alert("Thank you");
 });
