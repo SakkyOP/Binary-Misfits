@@ -89,15 +89,15 @@ li{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    font-size: 28px;
+    font-size: 1.75rem;
     position: absolute;
     left: 20px;
     top: 20px;
     color: white;
 }
 
-.backToHomePage{
-    padding-top: 20px;
+.backToHomePage h3{
+    padding-top: 1rem;
 }
 
 .backToHomePage:hover i, .backToHomePage:hover h3{

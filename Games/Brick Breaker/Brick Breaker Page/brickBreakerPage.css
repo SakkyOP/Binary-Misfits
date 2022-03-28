@@ -61,7 +61,7 @@ h2{
 
 h3{
     font-family: "Minecraft", sans-serif;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 ol{
@@ -89,7 +89,7 @@ li{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    font-size: 28px;
+    font-size: 1.75rem;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -97,7 +97,7 @@ li{
 }
 
 .backToHomePage h3{
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .backToHomePage:hover i, .backToHomePage:hover h3{
