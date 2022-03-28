@@ -19,6 +19,7 @@ export default class Brick{
     update(){
         if (this.collision()){
             this.markedForDeletion = true;
+            this.game.score += 10;
         }
     }
 

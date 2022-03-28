@@ -8,7 +8,7 @@ export default class Paddle {
         this.right = false;
         this.left = false;
 
-        this.maxSpeed = 100;
+        this.maxSpeed = 10;
         this.speed = 0;
 
         this.color = color;
@@ -38,6 +38,11 @@ export default class Paddle {
         }
     }
 
+    reset() {
+        this.maxSpeed = 5;
+        this.acceleration = 0;
+    }
+
     update(deltaTime) {
         switch(true){
             case this.right:
@@ -48,13 +53,9 @@ export default class Paddle {
                 break;
         }
 
-        this.position.x += this.speed / deltaTime;
+        this.position.x += this.speed * deltaTime / deltaTime;
 
-        this.acceleration = this.game.currentLevel * 5;
-
-        if (deltaTime % 50 == 0){
-            this.maxSpeed += this.acceleration;
-        }
+        this.acceleration = this.game.currentLevel;
         
         // wall collision
         if (this.position.x<0) { 

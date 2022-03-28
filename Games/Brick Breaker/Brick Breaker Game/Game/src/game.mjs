@@ -30,12 +30,14 @@ export default class Game {
 
         this.levels = [level1,level2];
         this.currentLevel = 0;
+
+        this.score = 0;
     }
 
     start(){
 
         if (this.gamestate == GAMESTATE.MENU || this.gamestate == GAMESTATE.GAMEOVER || this.gamestate == GAMESTATE.NEXTLEVEL){
-            if (this.gamestate == GAMESTATE.GAMEOVER) {this.lives = 3;}
+            if (this.gamestate == GAMESTATE.GAMEOVER) {this.lives = 3;this.score = 0;}
             this.ball.reset();
 
             this.bricks = []
@@ -85,7 +87,7 @@ export default class Game {
             ctx.textAlign = "center";
             ctx.fillText("Paused",this.width / 2, this.height / 2);
             ctx.font = "20px Arial";
-            ctx.fillText("Score: " + (this.currentLevel * 100),this.width / 2, this.height / 2 + 40);
+            ctx.fillText("Score: " + (this.score),this.width / 2, this.height / 2 + 40);
             ctx.font = "20px Arial";
             ctx.fillText("Lives: " + this.lives ,this.width / 2, this.height / 2 + 80);
             
@@ -114,7 +116,7 @@ export default class Game {
             ctx.font = "20px Arial";
             ctx.fillText("Press SPACE to try again!",this.width / 2, this.height / 2 + 40);
             ctx.font = "40px Arial";
-            ctx.fillText("Score: "+ (this.currentLevel * 100),this.width / 2, this.height / 4);
+            ctx.fillText("Score: "+ (this.score),this.width / 2, this.height / 4);
             
         }
 
@@ -130,7 +132,7 @@ export default class Game {
             ctx.font = "20px Arial";
             ctx.fillText("Press SPACE to proceed to the next level!",this.width / 2, this.height / 2 + 40);
             ctx.font = "40px Arial";
-            ctx.fillText("Score: "+ (this.currentLevel * 100),this.width / 2, this.height / 4);
+            ctx.fillText("Score: "+ (this.score),this.width / 2, this.height / 4);
         }
     }
 
@@ -148,6 +150,7 @@ export default class Game {
         if (this.bricks.length === 0 && !(this.gamestate == GAMESTATE.NEXTLEVEL)) {
             this.gamestate = GAMESTATE.NEXTLEVEL;
             this.currentLevel++;
+            this.paddle.maxSpeed += this.paddle.acceleration;
             this.levels.push(levelGenerator());
         }
         
