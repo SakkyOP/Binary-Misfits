@@ -76,6 +76,7 @@ a{
 }
 
 .blogDescription{
+    font-family: "Roboto", sans-serif;
     overflow: hidden;
     text-align: center;
     width: 90%;
@@ -103,13 +104,19 @@ a{
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.555);
 }
 
+.blogImg{
+    margin-right: 10px;
+    float: left;
+    width: 12vw;
+}
+
 .blogName{
-    font-family: "Aero", serif;
+    font-family: "Roboto", serif;
+    font-weight: 700;
     text-align: center;
-    margin-top: 5%;
     color: #5C09FA;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
-    text-decoration: underline;
+    margin: 10px 0 -5px 0;
 }
 
 .blogNameAndImage{
@@ -118,13 +125,15 @@ a{
     justify-content: center;
     align-content: center;
     align-items: center;
-    max-width: 90%;
+    /* max-width: 95%; */
 }
 
 .blogPageLowerImage{
     background-image: url('/Binary-Misfits/Images/blogdown.png');
     background-repeat: round;
-    height: clamp(200px, 22vh, 320px); 
+    background-size: 100vw;
+    height: 25vh; 
+    margin-top: -10px;
 }
 
 .blogs{
@@ -155,8 +164,15 @@ a{
 @media only screen and (max-width:768px){
     .blogDescription{
         padding-top: 1rem;
-        max-height: 20vh;
-        width: 85%;
+        max-height: 18vh;
+    }
+
+    .blogImg{
+        display: none;
+    }
+
+    .blogName{
+        margin: 0 8px -35px 8px;
     }
     
     .blogNameAndImage{
@@ -194,16 +210,12 @@ a{
         gap: 10px;
     }
 
-    .blogPageLowerImage{
-        background-image: url('/Binary-Misfits/Images/blogdown.png');
-        background-repeat: round;
-        height: clamp(200px, 22vh, 320px); 
-    }
-
     .blogPageUpperImage{
         background-image: url('/Binary-Misfits/Images/blogup.png');
         background-repeat: round;
-        height: clamp(150px, 22vh, 320px);
+        background-size: 100vw;
+        height: 25vh; 
+        margin-bottom: -10px;
     }
 
     .whiteLine{
