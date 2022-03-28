@@ -50,7 +50,7 @@ export default class Paddle {
 
         this.position.x += this.speed / deltaTime;
 
-        this.acceleration = deltaTime / 50;
+        this.acceleration = this.game.currentLevel * 5;
 
         if (deltaTime % 50 == 0){
             this.maxSpeed += this.acceleration;
