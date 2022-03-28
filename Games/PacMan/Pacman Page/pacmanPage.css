@@ -17,7 +17,7 @@
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('/Fonts/Minecraft.ttf');
+    src: url('/Binary-Misfits/Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
@@ -97,7 +97,7 @@ li{
 }
 
 .backToHomePage h3{
-    padding-top: 0.95rem;
+    padding-top: 1.1rem;
 }
 
 .backToHomePage:hover i, .backToHomePage:hover h3{
