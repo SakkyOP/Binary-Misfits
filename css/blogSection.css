@@ -60,6 +60,7 @@
     color: #5C09FA;
     margin-top: 5%;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
+    text-decoration: underline;
 }
 
 .blogs{
