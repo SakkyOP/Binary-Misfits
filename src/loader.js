@@ -1,5 +1,4 @@
 
-
 var loader = document.getElementById('loader');
 var body = document.getElementById('body');
 
