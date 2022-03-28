@@ -7,13 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcade Misfits| Home</title>
+    <link rel="stylesheet" href="../Binary-Misfits/css/loader.css">
     <link rel="stylesheet" href="../Binary-Misfits/css/home.css">
     <link rel="stylesheet" href="../Binary-Misfits/css/gameSection.css">
     <link rel="stylesheet" href="../Binary-Misfits/css/gameSectionMediaQuery.css">
-    <link rel="stylesheet" href="/Binary-Misfits/css/blogSection.css">
+    <link rel="stylesheet" href="../Binary-Misfits/css/blogSection.css">
 </head>
 
-<body>
+<body id="body">
+    <div id="loader">
+        <span class="back">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+            </span>
+        </div>
+    <script src="/Binary-Misfits/src/loader.js"></script>
     <section class="home-section">
         <div class="home-section-container">
             <div id="home-section-top">
@@ -174,11 +187,12 @@
             <div class="footer-main">
                 <h1 class="footer-heading"> Let's Connect!</h1>
                 <div class="footer-mid">
-                    <input type="text" placeholder="" class="footer-text-field">
+                    <input type="text" placeholder="" class="footer-text-field" id="home-email-field">
                     <button class="sumbit" id="submit">
                         SUBMIT
                     </button>
                 </div>
+                <script src="/Binary-Misfits/src/submit_home_btn.js"></script>
                 <label for="social-links" class="social-links">Social Media</label>
                 <div class="s-icons">
                     <a class="f" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
@@ -194,5 +208,4 @@
     </section>
     <script src="https://kit.fontawesome.com/c476974dbd.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

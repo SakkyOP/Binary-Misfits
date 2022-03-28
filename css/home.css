@@ -155,11 +155,13 @@
 }
 
 #mobile{
+    z-index: 999;
     display: none;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-color: #5C09FA;
+    margin-top: -2rem;
 }
 
 
