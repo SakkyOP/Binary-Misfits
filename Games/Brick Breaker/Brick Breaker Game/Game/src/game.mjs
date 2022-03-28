@@ -35,7 +35,7 @@ export default class Game {
     start(){
 
         if (this.gamestate == GAMESTATE.MENU || this.gamestate == GAMESTATE.GAMEOVER || this.gamestate == GAMESTATE.NEXTLEVEL){
-            if (!(this.gamestate == GAMESTATE.NEXTLEVEL)) {this.lives = 3;}
+            if (this.gamestate == GAMESTATE.GAMEOVER) {this.lives = 3;}
             this.ball.reset();
 
             this.bricks = []
@@ -154,6 +154,7 @@ export default class Game {
     }
 
     togglePause(){
+        if (this.gamestate == GAMESTATE.OVER){return;}
         if (this.gamestate == GAMESTATE.PAUSED){
             this.gamestate = GAMESTATE.RUNNING;
         } else {

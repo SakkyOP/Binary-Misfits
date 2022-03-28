@@ -25,8 +25,8 @@ export default class Ball{
         };
 
         this.velocity = {
-            x : Math.pow(-1,Math.floor(Math.random())) * Math.floor(Math.random() * (5-3)+3),
-            y : Math.floor(Math.random() * (5-3)+3) -8
+            x : Math.pow(-1,Math.floor(Math.random())) * Math.floor(Math.random() * (5-3)+3) + (this.game.currentLevel * 0.5),
+            y : Math.floor(Math.random() * (5-3)+3) -8 - (this.game.currentLevel * 0.5)
         };
     }
 
@@ -34,13 +34,8 @@ export default class Ball{
         ctx.drawImage(this.image, this.position.x, this.position.y, this.width, this.height);
     }
     update(deltaTime){
-        this.position.x += this.velocity.x * deltaTime / deltaTime;
-        this.position.y += this.velocity.y * deltaTime / deltaTime;
-
-        if (deltaTime % 50 == 0) {
-            this.velocity *= deltaTime / 500;
-        }
-
+        this.position.x += this.velocity.x * deltaTime / deltaTime ;
+        this.position.y += this.velocity.y * deltaTime / deltaTime ;
 
         // wall collision - velocity change
         if (this.position.x+this.width > this.game.width || this.position.x < 0) {
@@ -63,10 +58,7 @@ export default class Ball{
         
         if (this.position.y+this.height > this.game.height){
             setTimeout(()=>{
-                this.velocity = {
-                    x : Math.pow(-1,Math.floor(Math.random())) * Math.floor(Math.random() * (5-3)+3),
-                    y : Math.floor(Math.random() * (5-3)+4) - 9
-                };
+                this.reset();
             },1000);
             this.game.lives --;
             this.position = {
