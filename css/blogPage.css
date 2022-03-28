@@ -34,7 +34,7 @@ a{
     color: black;
 }
 
-.actualGames{
+.actualBlogs{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@ a{
     background-color: #6A11F6;
 }
 
-.gameArea{
+.blogArea{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +60,7 @@ a{
     align-content: center;
 }
 
-.gameCard{
+.blogCard{
     border-radius: 30px;
     background-color: white;
     display: flex;
@@ -69,10 +69,20 @@ a{
     align-items: center;
     align-content: center;
     /* margin-bottom: 1rem; */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 0px 12px;
+    transition: all ease 0.25s;
+    transform: scale(1);
 }
 
-.gameDescription{
+.blogCard:hover{
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+
+.blogDescription{
     overflow: hidden;
     text-align: center;
     width: 75%;
@@ -104,7 +114,7 @@ a{
     width: clamp(120px, 8vw, 420px);
 }
 
-.gameName{
+.blogName{
     font-family: "Aero", serif;
     text-align: center;
     margin-top: 5%;
@@ -112,7 +122,7 @@ a{
     font-size: clamp(1.3rem, 1.2vw, 4.5rem);
 }
 
-.gameNameAndImage{
+.blogNameAndImage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,13 +131,13 @@ a{
     max-width: 9.4rem;
 }
 
-.gamePageLowerImage{
+.blogPageLowerImage{
     background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
     background-repeat: round;
     height: clamp(200px, 22vh, 320px); 
 }
 
-.games{
+.blogs{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -165,7 +175,7 @@ a{
 }
 
 @media only screen and (min-width:768px){
-    .actualGames{
+    .actualBlogs{
         width: 100%;
         gap: 10px;
     }
@@ -183,13 +193,13 @@ a{
         padding: 0 0.8rem 0 1rem;
     }
 
-    .gamePageLowerImage{
+    .blogPageLowerImage{
         background-image: url('/Binary-Misfits/Images/gameWaveDown.png');
         background-repeat: round;
         height: clamp(200px, 22vh, 320px); 
     }
 
-    .gamePageUpperImage{
+    .blogPageUpperImage{
         background-image: url('/Binary-Misfits/Images/gameWaveUp.png');
         background-repeat: round;
         height: clamp(150px, 22vh, 320px);
@@ -211,19 +221,19 @@ a{
         width: 0;
     }
 
-    .gameCard{
+    .blogCard{
         padding: 1rem;
         flex-direction: row;
         height: clamp(180px, 26vw, 200px);
     }
 
-    .gameDescription{
+    .blogription{
         padding: 0;
         width: clamp(15rem, 20vw, 18rem);
         margin: 0 0.5rem;
     }
 
-    .gameName{
+    .blogName{
         margin: 0;
         padding: 0;
         margin-top: 20px;
@@ -244,7 +254,7 @@ a{
 }
 
 @media only screen and (min-width:1024px){
-    .actualGames{
+    .actualBlogs{
         row-gap: 25px;
         column-gap: 30px;
     }
@@ -256,13 +266,13 @@ a{
         /* position: -webkit-sticky; */
     }
 
-    .gameArea{
+    .blogArea{
         margin: 0;
         margin-top: -6vh;
         padding: 0;
     }
     
-    .gameCard{
+    .blogCard{
         padding: 0.7rem;
         flex-direction: row;
         height: clamp(200px, 22vh, 420px);
@@ -273,15 +283,15 @@ a{
         width: clamp(115px, 7.5vw, 300px);
     }
 
-    .gameNameAndImage{
+    .blogNameAndImage{
         padding: 0 0.6rem;
     }
 
-    .gamePage{
+    .blogPage{
         overflow-x: hidden;
     }
 
-    .games{
+    .blogs{
         align-items: flex-start;
         /* max-height: 65vh; yaha pe carousel aayega warna remove max height */
         padding-bottom: 1.2%;
