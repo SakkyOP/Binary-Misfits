@@ -130,7 +130,7 @@ a{
 
 .blogPageLowerImage{
     background-image: url('/Binary-Misfits/Images/blogdown.png');
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-size: 100vw;
     height: 25vh; 
     margin-top: -10px;
@@ -164,7 +164,7 @@ a{
 @media only screen and (max-width:768px){
     .blogDescription{
         padding-top: 1rem;
-        max-height: 18vh;
+        max-height: 7.5rem;
     }
 
     .blogImg{
