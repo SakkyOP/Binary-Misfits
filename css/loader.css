@@ -11,7 +11,7 @@
 }
 
 #loader {
-  background: #fff;
+  background: #101927;
   display: flex;
   align-items: center;
   width: 100vw;
@@ -28,7 +28,7 @@
 .back span {
   font-size: 3em;
   color: #6332F6;
-  background: #fff;
+  background: #101927;
   display: table-cell;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 0 #ccc;
   padding: 0 15px;
