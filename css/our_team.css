@@ -90,6 +90,7 @@ body > .backToHomePage{
     height: clamp(10vh,22vw,28vw);
     background-repeat: no-repeat;
     padding-bottom: 1rem;
+    margin-top: -1rem;
     background-color: #101927;
 }
 
