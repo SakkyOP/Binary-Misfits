@@ -69,7 +69,7 @@
     font-weight: 700;
     width: 90%;
     text-align: left;
-    color: #5C09FA;
+    color: #6332F6;
     font-size: clamp(1rem, 1.8vw, 4.5rem);
     overflow: hidden;
 }
@@ -125,7 +125,7 @@
 }
 
 .homeBlogSection{
-    background-image: linear-gradient(to bottom, #801DF0, #7316F4);
+    background-color: #6332F6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@
 
 .readMore{
     font-family: "Roboto", sans-serif;
-    color: #5C09FA;
+    color: #6332F6;
     width: 90%;
     text-align: right;
     /* margin-bottom: 20px; */

@@ -43,7 +43,7 @@ TAGS USED :
 }
 
 :root {
-    --main-color: #5C09FA;
+    --main-color: #6332F6;
 }
 
 .contact-us {
@@ -94,6 +94,7 @@ TAGS USED :
     text-align: right; 
     color: #121212;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.521);
+    
 }
 
 

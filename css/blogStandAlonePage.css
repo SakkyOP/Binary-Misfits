@@ -36,7 +36,7 @@ ul{
 }
 
 .actualContent{
-    background-image: linear-gradient(to bottom, #801DF0, #7316F4);
+    background-color: #6332F6;
     display: flex;
     justify-content: center;
     align-content: center;

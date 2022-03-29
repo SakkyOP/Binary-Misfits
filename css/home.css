@@ -16,11 +16,15 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #101927;
+}
+
 .home-section{
     display: flex;
     justify-content: space-around;
     background-image: url('/Binary-Misfits/Images/header_wave.png');
-    background-size: 100vw clamp(36vw,46vw,48vw);
+    background-size: 100vw clamp(36vw,46vw,60vw);
     background-repeat: no-repeat;
 }
 
@@ -44,6 +48,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 1rem;
 }
 .top-2{
     display: flex;
@@ -51,7 +56,7 @@
 }
 
 #logo {
-    width: clamp(40px,10vw,124px);
+    width: clamp(40px,6vw,124px);
     /* height: clamp(40px,16vw,120px); */
     /* Black shadow with 10px blur */
     filter: drop-shadow(0px 0px 6px black);
@@ -65,7 +70,7 @@
     letter-spacing: 4px;
     margin-left: 6px;
     /* white-space: nowrap; */
-    font-size: clamp(1.5rem,3.5vw,4rem);
+    font-size: clamp(1.5rem,2.8vw,4rem);
     text-shadow: 0px 0px 8px #000;
     margin-top: -10px;
 }
@@ -116,18 +121,21 @@
     font-size: clamp(0.5rem,2vw,1.6rem);
     padding: 4px;
     white-space: nowrap;
+    font-size: 18px;
 }
 
 #nav-ul-mobile > li > a:hover{
     border-bottom: 4px solid white;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    /* box-shadow: 0px 0px 2px #000; */
 }
 
 #nav-ul > li > a:hover{
     border-bottom: 4px solid white;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    /* box-shadow: 0px 0px 2px #000; */
 }
 
 #nav-ul-mobile > li > a.active{
@@ -149,6 +157,7 @@
     color: white;
     font-size: 2rem;
     cursor: pointer;
+    text-shadow: 0px 0px 8px #000;
 }
 .hamburger:focus{
     outline: none;
@@ -160,7 +169,7 @@
     justify-content: center;
     width: 100vw;
     height: 120vh;
-    background-color: #5C09FA;
+    background-color: #6332F6;
     margin-top: -2rem;
 }
 
@@ -195,7 +204,7 @@
 #T2{
     /* font-family: "Forte"; */
     font-family: "MinecraftTen";
-    -webkit-text-fill-color: #5C09FA; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #6332F6; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white; 
     color: white;
@@ -277,7 +286,7 @@
     outline: 0;
     font-size: 1.4rem;
     font-weight: 600;
-    color: #5C09FA;
+    color: #6332F6;
 
 }
 
@@ -352,7 +361,7 @@
 @media screen and (max-width: 768px){
 
     .home-section{
-        background-size: 100vw clamp(20vh,80vh,100vh);
+        background-size: 100vw clamp(20vh,90vh,100vh);
         padding-top: 0.5rem;
     }
     .mid-1{
@@ -421,11 +430,21 @@
         font-size: clamp(1rem,5vw,6rem);
     }
 
+    #bot-arrow{
+        width: 30vw;
+    }
+
 }
 
 @media screen and (max-width: 682px){
     .home-section{
-        background-size: 100vw clamp(20vh,58vh,100vh);
+        background-size: 100vw clamp(20vh,60vh,100vh);
         padding-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home-section{
+        background-size: 100vw clamp(20vh,40vh,100vh);
     }
 }

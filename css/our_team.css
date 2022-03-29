@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5C09FA;
+    background-color: #6332F6;
     overflow-x: hidden;
 }
 
@@ -40,11 +40,11 @@ body > .backToHomePage{
     position: absolute;
     left: 20px;
     top: 20px;
-    color: #5C09FA;
+    color: #6332F6;
     padding: 0 1rem;
     border-radius: 10px;
     background-color: white;
-    border: 2px solid #5C09FA;
+    border: 2px solid #6332F6;
     text-decoration: none;
 }
 
@@ -60,17 +60,17 @@ body > .backToHomePage{
   position: absolute;
   left: 20px;
   top: 20px;
-  color: #5C09FA;
+  color: #6332F6;
 
   padding: 0 1rem;
   border-radius: 10px;
   background-color: white;
-  border: 2px solid #5C09FA;
+  border: 2px solid #6332F6;
   text-decoration: none;
 }
 
 .backToHomePage:hover {
-  background-color: #5C09FA;
+  background-color: #6332F6;
   border: 2px solid white;
 }
 
@@ -83,13 +83,14 @@ body > .backToHomePage{
 }
 
 #crown{
-    background-image: url('/Binary-Misfits/Images/ourteamwave.svg');
+    background-image: url('/Binary-Misfits/Images/ourteamwave1.png');
     background-color: white;
     background-size: 100vw;
     width: 100vw;
     height: clamp(10vh,22vw,28vw);
     background-repeat: no-repeat;
-    margin-bottom: 4vw;
+    padding-bottom: 1rem;
+    background-color: #101927;
 }
 
 #heading{
@@ -99,7 +100,7 @@ body > .backToHomePage{
     margin: auto;
     width: 40%;
     border-bottom: solid 3px white;
-    background-color: #5C09FA;
+    background-color: #6332F6;
     display: flex;
     justify-content: center;
 }
@@ -110,7 +111,7 @@ body > .backToHomePage{
   justify-content: center;
   /* align-items: center; */
   flex-wrap: wrap;
-  background-color: #5C09FA;
+  background-color: #6332F6;
   width: 100%;
 }
 
@@ -189,6 +190,9 @@ body > .backToHomePage{
       font-size: 3.8rem;
       width: 60%;
   }
+  h3{
+    font-size: 6vw;
+  }
 }
 
 @media (max-width: 398px) {
@@ -197,5 +201,8 @@ body > .backToHomePage{
   }
   body{
     margin-top: 8rem;
+  }
+  h3{
+    font-size: 8vw;
   }
 }
