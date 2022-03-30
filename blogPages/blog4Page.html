@@ -12,6 +12,31 @@
 </head>
 
 <body>
+    <!-- Back to Top Button Start -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Back to Top Button End -->
+
     <a href="/Binary-Misfits/pages/blogPage.html" class="backToHomePage">
         <i class="fa-solid fa-angle-left">&ensp;</i>
         <h3>BLOGS</h3>
@@ -26,20 +51,20 @@
                     <div class="blogSAContent">
                         <img class="img1" src="/Binary-Misfits/blogPages/blog4Img1.webp">
                         <div class="para">
-                            Popular online indie sneak-and-stab simulator Among Us is currently facing an ongoing DDoS (distributed denial of service) attack. According to Among Us developers Innersloth, the game has been offline in both North America and Europe for over two days due to the attack.<br><br>
-                            On Friday evening, March 24, Among Us players started to report some server issues before eventually, it became impossible for players to connect and play online at all. Soon after, Innersloth confirmed that servers were indeed down and explained that it was all because of a DDoS attack.
+                            Popular online indie sneak-and-stab simulator Among Us is currently facing an ongoing <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DDoS (distributed denial of service) attack</a>. According to <em>Among Us</em> developers <a href="https://www.innersloth.com/">Innersloth</a>, the game has been offline in both North America and Europe for over two days due to the attack.<br><br>
+                            On Friday evening, March 24, Among Us players started to report some server issues before eventually, it became impossible for players to connect and play online at all. Soon after, Innersloth confirmed that servers were indeed down and <a href="https://twitter.com/AmongUsGame/status/1507149928040042498">explained that it was all because of a DDoS attack</a>.
                         </div>
                         <a href="https://twitter.com/AmongUsGame/status/1507149928040042498?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1507149928040042498%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fkotaku.com%2Fembed%2Finset%2Fiframe%3Fid%3Dtwitter-1507149928040042498autosize%3D1"><img class="img2" src="/Binary-Misfits/blogPages/blog4Img2.png"></a>
                         <div class="para">
                             “We have a sabotage going on lol” was what the official account tweeted, before explaining the DDoS attack and apologizing to players for the downtime. It also explained that it might “take a bit” before things got fixed. <br><br>
                             Now, over 48 hours later, the servers are still down with most players unable to connect at all. <br><br>
-                            The last update from Innersloth came yesterday afternoon, with the devs explaining that servers were still unstable and that while the team continues to fight the DDoS attack, the servers may turn on and off. So you may be able to log on, but it’s likely you’ll be booted shortly after. Innersloth said it will update players on when the servers return to normal and stabilize. </div>
+                            <a href="https://twitter.com/AmongUsGame/status/1507800284034056196">The last update from Innersloth came yesterday afternoon</a>, with the devs explaining that servers were still unstable and that while the team continues to fight the DDoS attack, the servers may turn on and off. So you may be able to log on, but it’s likely you’ll be booted shortly after. Innersloth said it will update players on when the servers return to normal and stabilize. </div>
                             <a href="https://twitter.com/AmongUsGame/status/1507800284034056196?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1507800284034056196%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fkotaku.com%2Fembed%2Finset%2Fiframe%3Fid%3Dtwitter-1507800284034056196autosize%3D1"><img class="img2" src="/Binary-Misfits/blogPages/blog4img3.png"></a>
                         <div class="para">
                             While some players are of course frustrated by the situation, Innersloth has continued to use the Among Us Twitter account to have fun during the DDoS attack. Of course, just because someone is tweeting jokes doesn’t mean the rest of the team is doing nothing, but this is the internet and some gamers are just unable to get the idea that different people at studios have different jobs. <br><br>
                             Luckily, most of the folks replying to Innersloth’s DDoS updates are playing along with the devs during what must be an incredibly annoying and shitty time. <br><br>
-                            DDoS attacks have continued to be a problem for even large-scale video game companies and networks. Famously in December 2014, both the PSN and Xbox Live networks were taken down by a massive DDoS attack. Sadly, these types of attacks are hard to predict and stop. And as more and more video games rely on the internet, DDoS attacks and online hacking will only become a bigger and more annoying problem for players and devs. <br><br>
-                            <strong>Update: 3/27/2022: 1:51 p.m. ET:</strong> Innersloth told Kotaku via email that is still working on fixing its server problems, but had no specific update to share beyond that. <br><br>
+                            DDoS attacks have continued to be a problem for even large-scale video game companies and networks. <a href="https://blog.playstation.com/2014/12/27/playstation-network-update-3/">Famously in December 2014</a>, both the PSN and Xbox Live networks were taken down by a massive DDoS attack. Sadly, these types of attacks are hard to predict and stop. And as more and more video games rely on the internet, DDoS attacks and online hacking will only become a bigger and more annoying problem for players and devs. <br><br>
+                            <strong>Update: 3/27/2022: 1:51 p.m. ET:</strong> Innersloth told <em>Kotaku</em> via email that is still working on fixing its server problems, but had no specific update to share beyond that. <br><br>
                             When asked why someone or a group of people were sabotaging the game, Innersloth jokingly responded the culprits were “Salty over being ejected.” <br><br>
                         </div>
                     </div>

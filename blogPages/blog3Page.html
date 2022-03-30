@@ -12,6 +12,31 @@
 </head>
 
 <body>
+    <!-- Back to Top Button Start -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Back to Top Button End -->
+
     <a href="/Binary-Misfits/pages/blogPage.html" class="backToHomePage">
         <i class="fa-solid fa-angle-left">&ensp;</i>
         <h3>BLOGS</h3>
@@ -26,11 +51,18 @@
                     <div class="blogSAContent">
                         <img class="img1" src="/Binary-Misfits/blogPages/blog3Img1.webp">
                         <div class="para">
-                            Beedle, the friendly travelling merchant from The Legend Of Zelda: Breath of the Wild, sure does get around, managing to cover almost every corner of the map during your adventures. Turns out he’s got a secret to his breadth of coverage: there are more than one of them. <br><br>
-                            Having learned that Beedle was actually four Beedles, and that each one of them exists as an entirely separate NPC within the game’s code, ThornyFox decided there was only one thing that could be done with such knowledge: bring all four of them together for a photo. <br><br>
-                            And so they embarked on a quest to find each Beedle, then knock them on their ass in a certain direction so that they could be moved ever so slightly off course. <br><br>
+                            Beedle, the friendly travelling merchant from <em>The Legend Of Zelda: Breath of the Wild</em>, sure does get around, managing to cover almost every corner of the map during your adventures. Turns out he’s got a secret to his breadth of coverage: there are more than one of them. <br><br>
+                            Having learned that Beedle was actually <em>four</em> Beedles, and that each one of them exists as an entirely separate NPC within the game’s code, <a href="https://www.reddit.com/r/Breath_of_the_Wild/comments/tgz7qw/each_beedle_on_the_map_exists_as_a_separate_npc/">ThornyFox decided there was only one thing that could be done with such knowledge</a>: bring all four of them together for a photo. <br><br>
+                            And so they embarked on a quest to find each Beedle, then knock them on their ass in a certain direction so that they could be moved ever so slightly off course. You can see it in action in the video below. <br><br>
+                            <div class="blog3Vid">
+                                <iframe id="reddit-embed" src="https://www.redditmedia.com/r/Breath_of_the_Wild/comments/tgz7qw/each_beedle_on_the_map_exists_as_a_separate_npc/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="432" width="640" scrolling="no"></iframe>
+                            </div> <br>
                             If you are thinking, “Man, that sure must have taken a long time,” you are correct. ThornyFox says, “It took me 10 hours. I had plenty of time to think about my life choices.” <br><br>
-                            Sadly, Beedlecon 2022 wasn’t able to last long. Because of the way <em>Breath of the Wild</em> handles the passage of time and the placement of NPC characters, there was no way to keep all four of them in the same place forever. <br><br>
+                            Sadly, Beedlecon 2022 wasn’t able to last long. Because of the way <em>Breath of the Wild</em> handles the passage of time and the placement of NPC characters, there was no way to keep all four of them in the same place forever. As ThornyFox explains to a Reddit user asking about the video: <br><br>
+                            <p class="quesAns">
+                                <strong>Q:</strong> But this is temporary, isn’t it? Does saving save the location of NPCs? I wouldn’t think so. Oh no... <br>
+                                <strong>A:</strong> Sadly no, lots of things can despawn them including saving and reloading, teleporting, and sleeping at a campfire (which I learned the hard way)
+                            </p> <br>
                             Ah, but nothing lasts forever. What’s important is not the destination, but the gruelling journey it took to get there, and the four friends made along the way...who you attacked unrelentingly for 10 hours just to take a selfie, and who took it all in their stride, because Beedle has always been and will forever remain the most unflappable guy in the <em>Zelda</em> universe. <br><br>
                         </div>
                     </div>
