@@ -62,6 +62,7 @@ ul{
     margin: 15px;
     color: #6332F6;
     font-family: "Minecraft", sans-serif;
+    width: fit-content;
 }
 
 .backToHomePage h3{
