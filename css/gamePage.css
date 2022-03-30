@@ -61,15 +61,15 @@ a{
 }
 
 .gameCard{
-    border-radius: 30px;
-    background-color: white;
+    border-radius: 18px;
+    background-color: #1B1B2F;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    /* margin-bottom: 1rem; */
-    box-shadow: 0px 0px 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 12px #000;
     transition: all ease 0.25s;
     transform: scale(1);
 }
@@ -84,10 +84,10 @@ a{
 
 .gameDescription{
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     width: 75%;
-    padding-bottom: 1rem;
     font-family: "Roboto", sans-serif;
+    color: white;
 }
 
 .gameHeading{
@@ -321,4 +321,10 @@ a{
         background-repeat: no-repeat;
         left: 1vw;
     }    
+}
+
+@media only screen and (max-width:768px){
+    .gameDescription{
+        padding-bottom: 1rem;
+    }
 }
