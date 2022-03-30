@@ -31,6 +31,7 @@
 
 a{
     text-decoration: none;
+    color: #5C09FA;
 }
 
 body{
@@ -107,7 +108,7 @@ li{
 }
 
 .card{
-    background-color: white;
+    background-color: #1b1b2f;
     width: 60%;
     padding: 55px 20px;
     border-radius: 15px;
