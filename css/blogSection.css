@@ -34,13 +34,13 @@
 .blogCard{
     height: clamp(200px, 18vw, 700px);
     width: clamp(400px, 45vw, 1200px);
-    border-radius: 30px;
-    background-color: white;
+    border-radius: 18px;
+    background-color: #1B1B2F;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 0px 12px;
+    box-shadow: 0px 0px 12px #000;
     transition: all ease 0.25s;
     transform: scale(1);
 }
@@ -69,7 +69,7 @@
     font-weight: 700;
     width: 90%;
     text-align: left;
-    color: #6332F6;
+    color: white;
     font-size: clamp(1rem, 1.8vw, 4.5rem);
     overflow: hidden;
 }
@@ -93,7 +93,7 @@
 
 .blogText{
     font-family: "Roboto", sans-serif;
-    color: black;
+    color: #909090;
     text-align: justify;
     margin: 0px 40px 10px 0;
     max-height: 4.875rem;
@@ -144,7 +144,7 @@
 
 .readMore{
     font-family: "Roboto", sans-serif;
-    color: #6332F6;
+    color: white;
     width: 90%;
     text-align: right;
     /* margin-bottom: 20px; */

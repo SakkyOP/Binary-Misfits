@@ -1,26 +1,26 @@
 @media only screen and (min-width: 1920px){
     .games{
-        row-gap: 69px;
+        row-gap: 4.3125rem;
     }
 }
 
 @media only screen and (min-width: 2560px){
     .games{
-        row-gap: 80px;
+        row-gap: 5rem;
     }
 }
 
 @media only screen and (min-width: 3840px){
     .games{
-        row-gap: 130px;
+        row-gap: 8.125rem;
     }
 }
 
 
 /* Non-standard media query~ Ishaan */
-@media only screen and (min-width: 913px){ 
+@media only screen and (min-width: 914px){ 
     .games{
-        row-gap: 50px;
+        row-gap: 3.125rempx;
     }
 
     .heading{
@@ -30,8 +30,7 @@
 
 @media only screen and (min-width: 600px) and (max-width: 913px){
     .games{
-        width: 80%;
-        row-gap: 35px;
+        row-gap: 2.1875rem;
     }
 
     .heading{
