@@ -39,7 +39,7 @@
     height: clamp(200px, 18vw, 700px);
     width: clamp(200px, 18vw, 700px);
     border-radius: 18px;
-    background-color: #1B1B2F;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@
 
 .gameName{
     font-family: "Aero", serif;
-    color: white;
+    color: #6332F6;
     margin-top: 5%;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
 }

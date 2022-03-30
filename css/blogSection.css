@@ -35,7 +35,7 @@
     height: clamp(200px, 18vw, 700px);
     width: clamp(400px, 45vw, 1200px);
     border-radius: 18px;
-    background-color: #1B1B2F;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -69,7 +69,7 @@
     font-weight: 700;
     width: 90%;
     text-align: left;
-    color: white;
+    color: #6332F6;
     font-size: clamp(1rem, 1.8vw, 4.5rem);
     overflow: hidden;
 }
@@ -93,7 +93,7 @@
 
 .blogText{
     font-family: "Roboto", sans-serif;
-    color: #909090;
+    color: #3d3d3d;
     text-align: justify;
     margin: 0px 40px 10px 0;
     max-height: 4.875rem;
@@ -144,7 +144,7 @@
 
 .readMore{
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: #6332F6;
     width: 90%;
     text-align: right;
     /* margin-bottom: 20px; */
