@@ -54,8 +54,8 @@ a{
 }
 
 .blogCard{
-    border-radius: 30px;
-    background-color: white;
+    border-radius: 18px;
+    background-color: #1b1b2f;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -82,6 +82,7 @@ a{
     width: 90%;
     padding-bottom: 1rem;
     text-align: justify;
+    color: #909090;
 }
 
 .blogHeading{
@@ -114,7 +115,7 @@ a{
     font-family: "Roboto", serif;
     font-weight: 700;
     text-align: center;
-    color: #6332F6;
+    color: white;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
     margin: 10px 0 -5px 0;
 }
@@ -154,7 +155,7 @@ a{
 
 .readMore{
     font-family: "Roboto", sans-serif;
-    color: #6332F6;
+    color: white;
     width: 90%;
     text-align: right;
     /* margin-bottom: 20px; */
