@@ -32,7 +32,8 @@
 }
 
 body{
-    background-color: #101927;
+    background-color: whitesmoke;
+    /* background-color: #101927; */
 }
 
 ul{
@@ -54,7 +55,7 @@ ul{
     flex-wrap: nowrap;
     font-size: clamp(1.5625rem, 2vw, 4.1rem);
     margin: 15px;
-    color: #5C09FA;
+    color: #6332F6;
     font-family: "Minecraft", sans-serif;
 }
 
@@ -64,7 +65,7 @@ ul{
 
 .backToHomePage:hover i, .backToHomePage:hover h3{
     color: white;
-    text-shadow: 0 0 12px #5C09FA;
+    text-shadow: 0 0 12px #6332F6;
 }
 
 .blogBg{
@@ -78,7 +79,8 @@ ul{
     min-height: 90vh;
     width: 80vw;
     border-radius: 30px;
-    background-color: #1B1B2F;
+    background-color: white;
+    /* background-color: #1B1B2F; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -98,7 +100,7 @@ ul{
     margin: 2rem 0;
     width: 90%;
     text-align: center;
-    color: #5C09FA;
+    color: #6332F6;
     font-size: max(2.8vw ,2.5rem);
     overflow: hidden;
 }
@@ -114,7 +116,7 @@ ul{
 }
 
 .img2:hover{
-    box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #000;
 }
 
 .lowerWave{
@@ -128,7 +130,7 @@ ul{
 
 .para{
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: black;
     font-size: max(1.6vw ,1.375rem);
     /* line-height: 35px; */
     width: 80%;
