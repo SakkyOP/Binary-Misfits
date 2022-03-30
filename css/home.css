@@ -441,10 +441,14 @@ body{
         background-size: 100vw clamp(20vh,60vh,100vh);
         padding-top: 0.5rem;
     }
+    
 }
 
 @media screen and (max-width: 480px){
     .home-section{
         background-size: 100vw clamp(20vh,40vh,100vh);
+    }
+    .hamburger{
+        margin-right: 1rem;
     }
 }
