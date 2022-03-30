@@ -55,13 +55,13 @@ a{
 
 .blogCard{
     border-radius: 18px;
-    background-color: #1b1b2f;
+    /* background-color: #1b1b2f; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    /* margin-bottom: 1rem; */
     box-shadow: 0px 0px 12px;
     transition: all ease 0.25s;
     transform: scale(1);
@@ -83,7 +83,8 @@ a{
     width: 90%;
     padding-bottom: 1rem;
     text-align: justify;
-    color: #909090;
+    color: black;
+    /* color: #909090; */
 }
 
 .blogHeading{
@@ -91,7 +92,6 @@ a{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 1rem 0 3rem 0;
 }
 
 .blogHeadingIcon{
@@ -115,8 +115,9 @@ a{
 .blogName{
     font-family: "Roboto", serif;
     font-weight: 700;
-    text-align: center;
-    color: white;
+    text-align: left;
+    /* color: white; */
+    color: #6332F6;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
     margin: 10px 0 -5px 0;
 }
@@ -152,11 +153,13 @@ a{
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin: 3rem 0 3rem 0;
 }
 
 .readMore{
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: #6332F6;
+    /* color: white; */
     width: 90%;
     text-align: right;
     /* margin-bottom: 20px; */
