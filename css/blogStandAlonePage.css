@@ -47,6 +47,11 @@ ul{
     align-content: center;
 }
 
+.blog2Vid{
+    display: flex;
+    justify-content: center;
+}
+
 .backToHomePage{
     display: flex;
     flex-direction: row;
