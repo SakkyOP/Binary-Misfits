@@ -299,7 +299,7 @@ a{
         flex-direction: column;
         /* height: 38vh; */
         height: clamp(200px, 38vh, 420px);
-        width: clamp(400px, 38vw, 1150px);
+        width: clamp(400px, 40vw, 1150px);
     }
 
     .blogNameAndImage{
