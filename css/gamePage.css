@@ -62,7 +62,7 @@ a{
 
 .gameCard{
     border-radius: 18px;
-    background-color: #1B1B2F;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -88,7 +88,7 @@ a{
     width: 75%;
     font-family: "Roboto", sans-serif;
     font-size: 1.1rem;
-    color: white;
+    color: black;
 }
 
 .gameHeading{
