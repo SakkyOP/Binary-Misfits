@@ -254,7 +254,7 @@ a{
     .rightSideImage{
         display: hidden;
         height: 0;
-        width: 0;
+        width: 55vw;
     }
 }
 
@@ -262,10 +262,11 @@ a{
     .actualGames{
         row-gap: 25px;
         column-gap: 30px;
+        width: 55vw;
     }
 
     .controllersImageForSides{
-        transform: scale(0.95) rotateZ(15deg);
+        transform: scale(0.95) rotateZ(12.5deg);
         width: 80vh;
         /* position: fixed; */
         /* position: -webkit-sticky; */
@@ -281,7 +282,7 @@ a{
         padding: 0.7rem;
         flex-direction: row;
         height: clamp(200px, 22vh, 420px);
-        width: clamp(400px, 33vw, 1150px);
+        width: clamp(400px, 35vw, 1150px);
     }
 
     .gameImage{
