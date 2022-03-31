@@ -16,7 +16,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    font-size: 1.8rem;
+    font-size: clamp(0.9rem,5vw,1.8rem);
     position: absolute;
     left: 20px;
     top: 20px;
@@ -35,7 +35,7 @@
 }
 
 #backbtn h3{
-    padding-top: 5px;
+    padding-top: 2%;
 }
 
 #backbtn:hover i, #backbtn:hover h3{
