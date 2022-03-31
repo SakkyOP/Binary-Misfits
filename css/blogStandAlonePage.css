@@ -188,12 +188,12 @@ ul{
     color: black;
 }
 
-.para a:hover{
-    color: #6332F6;
-}
-
 .para a:visited{
     color: #0000EE;
+}
+
+.para a:hover{
+    color: #6332F6;
 }
 
 .quesAns{
@@ -220,7 +220,7 @@ ul{
   border: none;
   outline: none;
   background-color: #41239b;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   cursor: pointer;
   padding: 15px;
