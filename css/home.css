@@ -481,15 +481,16 @@ body{
 
 /* css for custom scroll bar */
 ::-webkit-scrollbar{
-    width: 8px;
+    width: 12px;
+    background: #3e1f9a;
 }
 
-::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 5px whitesmoke; 
-}
+/* ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px; 
+} */
 
 ::-webkit-scrollbar-thumb {
-    background: #41239b; 
+    background: #311b74; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
