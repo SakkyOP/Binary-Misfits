@@ -491,6 +491,7 @@ body{
 
 ::-webkit-scrollbar-thumb {
     background: #311b74; 
+    border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
