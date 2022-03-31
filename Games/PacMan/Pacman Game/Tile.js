@@ -37,7 +37,7 @@ function Tile(x, y, type, behavior) {
 
   this.speed = 0.2;
 
-  this.behavior = behavior; // GHOSTs only;	0 = agressive, 1 = nonchalant
+  this.behavior = behavior; // GHOSTs only;	0 = agressive, 1 = not aggresive
 }
 
 /**

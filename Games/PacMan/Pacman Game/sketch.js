@@ -155,7 +155,7 @@ function generateField() {
           break;
 
         case "GHOST":
-					var behavior = (ghostId % 5); // every other ghost will be agressive
+					var behavior = (ghostId % Math.floor(Math.random()*2)); // every other ghost will be agressive
           ghosts.push(new Tile(j, i, type, behavior));
           f.push(new Tile(j, i, "OPEN"));
           ghostId++;
