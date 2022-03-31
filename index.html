@@ -25,6 +25,32 @@
         </span>
     </div>
     <script src="/Binary-Misfits/src/loader.js"></script>
+
+    <!-- Back to Top Button Start -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>BACK TO TOP</strong></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 690px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 690 || document.documentElement.scrollTop > 690) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Back to Top Button End -->
+
     <section class="home-section">
         <div class="home-section-container">
             <div id="home-section-top">
