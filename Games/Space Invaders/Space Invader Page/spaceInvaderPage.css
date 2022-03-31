@@ -31,6 +31,7 @@
 
 a{
     text-decoration: none;
+    color: #5C09FA;
 }
 
 body{
@@ -81,6 +82,7 @@ li{
     display: flex;
     flex-direction: row;
     padding-top: 4rem;
+    /* background-color: #1019276b; */
 }
 
 .backToHomePage{
@@ -93,11 +95,12 @@ li{
     position: absolute;
     left: 20px;
     top: 20px;
-    color: white;
+    color: #5C09FA;
 }
 
-.backToHomePage:hover i{
-    color: #5C09FA;
+.backToHomePage:hover i, .backToHomePage:hover h3{
+    color: white;
+    text-shadow: 0 0 12px #5C09FA;
 }
 
 .backToHomePage > i {
@@ -106,6 +109,7 @@ li{
 
 .card{
     background-color: white;
+    /* background-color: #1b1b2f; */
     width: 60%;
     padding: 55px 20px;
     border-radius: 15px;
@@ -142,6 +146,7 @@ li{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.178);
     padding-top: 4rem;
+    /* background-color: #101927b6; */
 }
 
 .instructionHeading{
@@ -169,10 +174,6 @@ li{
     border-color: transparent;
     background-color: #5C09FA;
 }
-.backToHomePage:hover i, .backToHomePage:hover h3{
-    color: #5C09FA;
-}
-
 
 /* Media Queries */
 

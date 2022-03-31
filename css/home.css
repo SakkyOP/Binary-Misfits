@@ -17,7 +17,8 @@
 }
 
 body{
-    background-color: #101927;
+    background-color: whitesmoke;
+    /* background-color: #101927; */
 }
 
 .home-section{
@@ -451,4 +452,48 @@ body{
     .hamburger{
         margin-right: 1rem;
     }
+}
+
+
+/* Back to Top Button ki CSS */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #41239b;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: ease-in-out 0.2s;
+  }
+  
+  #myBtn:hover {
+      background-color: #555;
+    }
+
+
+/* css for custom scroll bar */
+::-webkit-scrollbar{
+    width: 12px;
+    background: #3e1f9a;
+}
+
+/* ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px; 
+} */
+
+::-webkit-scrollbar-thumb {
+    background: #311b74; 
+    border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d186c; 
 }

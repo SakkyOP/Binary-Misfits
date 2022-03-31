@@ -31,6 +31,7 @@
 
 a{
     text-decoration: none;
+    color: #5C09FA;
 }
 
 body{
@@ -81,6 +82,7 @@ li{
     display: flex;
     flex-direction: row;
     padding-top: 4rem;
+    /* background-color: #1019278f; */
 }
 
 .backToHomePage{
@@ -93,7 +95,7 @@ li{
     position: absolute;
     left: 20px;
     top: 20px;
-    color: white;
+    color: #5C09FA;
 }
 
 .backToHomePage h3{
@@ -101,13 +103,15 @@ li{
 }
 
 .backToHomePage:hover i, .backToHomePage:hover h3{
-    color: #5C09FA;
+    color: white;
+    text-shadow: 0 0 12px #5C09FA;
 }
 
 .card{
     background-color: white;
+    /* background-color: #1b1b2f; */
     width: 60%;
-    padding: 55px 20px;
+    padding: 85px 20px;
     border-radius: 15px;
     margin-right: 20px;
     box-shadow: 0 0 12px black;
@@ -142,6 +146,7 @@ li{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.178);
     padding-top: 4rem;
+    /* background-color: #101927b6; */
 }
 
 .instructionHeading{

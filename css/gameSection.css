@@ -38,13 +38,14 @@
 .gameCard{
     height: clamp(200px, 18vw, 700px);
     width: clamp(200px, 18vw, 700px);
-    border-radius: 30px;
+    border-radius: 18px;
     background-color: white;
+    /* background-color: #1A1A2E; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 0px 12px;
+    box-shadow: 0px 0px 12px #000;
     transition: all ease 0.25s;
     transform: scale(1);
 }
@@ -64,6 +65,7 @@
 .gameName{
     font-family: "Aero", serif;
     color: #6332F6;
+    /* color: white; */
     margin-top: 5%;
     font-size: clamp(1.3rem, 1.5vw, 4.5rem);
 }
@@ -130,3 +132,17 @@
     /* padding-top: 9.55rem; */
     margin-bottom: -2px;
 } 
+
+.tetrisImage{
+    padding-top: 1.72rem;
+}
+
+.tetrisName{
+    padding-top: 1.2rem;
+}
+
+@media only screen and (max-width: 840px){
+    .tetrisName{
+        padding-top: 0;
+    }
+}

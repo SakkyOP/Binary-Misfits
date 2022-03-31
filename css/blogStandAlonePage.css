@@ -31,6 +31,11 @@
     text-decoration: none;
 }
 
+body{
+    background-color: whitesmoke;
+    /* background-color: #101927; */
+}
+
 ul{
     margin: 20px 0 0 40px;
 }
@@ -42,6 +47,51 @@ ul{
     align-content: center;
 }
 
+.blog2Vid, .blog3Vid{
+    display: flex;
+    justify-content: center;
+}
+
+.blog2Vid{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    /* width: clamp(250px, 40vw, 1200px); */
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 4px;
+}
+
+.blog2Vid iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blog3Vid{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    /* width: clamp(250px, 40vw, 1200px); */
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 4px;
+}
+
+.blog3Vid iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blog2Vid:hover, .blog3Vid:hover{
+    box-shadow: 0 0 10px #000;
+}
+
 .backToHomePage{
     display: flex;
     flex-direction: row;
@@ -50,8 +100,9 @@ ul{
     flex-wrap: nowrap;
     font-size: clamp(1.5625rem, 2vw, 4.1rem);
     margin: 15px;
-    color: #5C09FA;
+    color: #6332F6;
     font-family: "Minecraft", sans-serif;
+    width: fit-content;
 }
 
 .backToHomePage h3{
@@ -60,7 +111,7 @@ ul{
 
 .backToHomePage:hover i, .backToHomePage:hover h3{
     color: white;
-    text-shadow: 0 0 12px #5C09FA;
+    text-shadow: 0 0 12px #6332F6;
 }
 
 .blogBg{
@@ -75,6 +126,7 @@ ul{
     width: 80vw;
     border-radius: 30px;
     background-color: white;
+    /* background-color: #1B1B2F; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -94,7 +146,7 @@ ul{
     margin: 2rem 0;
     width: 90%;
     text-align: center;
-    color: #5C09FA;
+    color: #6332F6;
     font-size: max(2.8vw ,2.5rem);
     overflow: hidden;
 }
@@ -110,7 +162,7 @@ ul{
 }
 
 .img2:hover{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.420);
+    box-shadow: 0 0 10px #000;
 }
 
 .lowerWave{
@@ -124,10 +176,24 @@ ul{
 
 .para{
     font-family: "Roboto", sans-serif;
+    color: black;
     font-size: max(1.6vw ,1.375rem);
-    /* line-height: 35px; */
+    line-height: 35px;
     width: 80%;
     margin: 40px auto;
+}
+
+.para a{
+    text-decoration: underline #6332F6; 
+    color: black;
+}
+
+.para a:hover{
+    color: #6332F6;
+}
+
+.quesAns{
+    margin-left: 50px;
 }
 
 .upperWave{
@@ -138,3 +204,26 @@ ul{
     background-size: 100vw;
     margin-bottom: -2px;
 } 
+
+/* Back to Top Button ki CSS */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #41239b;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: ease-in-out 0.2s;
+}
+
+#myBtn:hover {
+    background-color: #555;
+  }

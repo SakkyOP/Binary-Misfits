@@ -49,7 +49,7 @@ body{
 }
 
 h3{
-    color: white;
+    color: #6332F6;
     font-family: "Minecraft", sans-serif;
     padding: 10px;
     padding-top: 20px;
@@ -76,15 +76,12 @@ h3{
     position: absolute;
     left: 20px;
     top: 20px;
+    color: #6332F6;
+}
+
+.backToHomePage:hover i, .backToHomePage:hover h3{
     color: white;
-}
-
-.backToHomePage:hover i{
-    color: #5C09FA;
-}
-
-.backToHomePage:hover h3{
-    color: #5C09FA;
+    text-shadow: 0 0 12px #6332F6;
 }
 
 .instructions{
