@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #121212;
+    display: grid;
+    place-items: center;
+}
+
+#gameScreen {
+    width: 1024px;
+    height: 576px;
+    background: #2e2424;
+}
+
+img {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    #gameScreen {
+        width: 450px;
+        height: 800px;
+    }
+}
