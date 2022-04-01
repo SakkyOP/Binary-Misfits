@@ -14,3 +14,12 @@ window.addEventListener("load", function() { setTimeout(function(){
     body.style.overflow = "auto";
 },2000);
 });
+
+window.addEventListener("resize", ()=>{
+    if(window.innerWidth < 991){
+        aboutgame.style.display = "none";
+    }
+    else{
+        aboutgame.style.display = "flex";
+    }
+});
