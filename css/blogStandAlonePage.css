@@ -177,7 +177,7 @@ ul{
 .para{
     font-family: "Roboto", sans-serif;
     color: black;
-    font-size: max(1.6vw ,1.375rem);
+    font-size: max(1.3vw ,1.1rem);
     line-height: 35px;
     width: 80%;
     margin: 40px auto;
