@@ -254,7 +254,7 @@ a{
     .rightSideImage{
         display: hidden;
         height: 0;
-        width: 55vw;
+        width: 0;
     }
 }
 
