@@ -116,3 +116,9 @@ h3{
     margin-bottom: 8px;
     text-align: center;
 }
+
+/* For game images to not to be drawn outside the canvas */
+
+img {
+    display: none;
+}

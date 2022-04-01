@@ -36,6 +36,10 @@ var pacman;
 var score;
 var endScore;
 
+function preload() {
+  img = loadImage("ghost.png");
+}
+
 function setup() {
 
   createCanvas(500, 535);
