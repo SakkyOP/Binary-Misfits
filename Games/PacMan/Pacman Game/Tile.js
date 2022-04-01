@@ -1,6 +1,9 @@
 /**
 	* all different types of tiles
 	*/
+
+const ghost_image = document.getElementById("ghost-image");
+
 const TYPES = [
 	"BARRIER",
 	"BISCUIT",
@@ -73,7 +76,7 @@ Tile.prototype.update = function() {
 
   /* eating */
   if (this.type == "PACMAN") { // only PACMAN may eat!
-
+    this.speed += 0.0001;
 		// Tile to which Pac-man is moving
     var destinationTile = getTile(Math.floor(this.x), Math.floor(this.y));
 
@@ -98,11 +101,18 @@ Tile.prototype.update = function() {
 
   } else if (this.type == "GHOST") {
     /* GHOST AI */
+    this.image = ghost_image;
 
 		var distance = dist(pacman.x, pacman.y, this.x, this.y);
 
     if (distance < 0.3) // if Pac-man has touched a GHOST
       endGame(false);
+
+    if (distance < 4){
+      this.behavior = 0;
+    } else if (distance > 4){
+      this.behavior = 1;
+    }
 
 		/* movement */
     if (this.moving) // can't move multiple times at once
@@ -173,17 +183,23 @@ Tile.prototype.draw = function() {
       break;
 
     case "GHOST":
+      // draw ghost image
 
-      fill("#FF00EE");
-      stroke(0);
-      strokeWeight(1);
+      image(img, this.x * SIZE , this.y * SIZE , SIZE, SIZE);
 
-			/* draw a triangle */
-      beginShape();
-      vertex(this.x * SIZE + HALF_SIZE, this.y * SIZE + QUARTER_SIZE);
-      vertex(this.x * SIZE + QUARTER_SIZE, this.y * SIZE + (QUARTER_SIZE * 3));
-      vertex(this.x * SIZE + (QUARTER_SIZE * 3), this.y * SIZE + (QUARTER_SIZE * 3));
-      endShape(CLOSE);
+
+      // draw triangles instead
+
+      // fill("#FF00EE");
+      // stroke(0);
+      // strokeWeight(1);
+
+			// /* draw a triangle */
+      // beginShape();
+      // vertex(this.x * SIZE + HALF_SIZE, this.y * SIZE + QUARTER_SIZE);
+      // vertex(this.x * SIZE + QUARTER_SIZE, this.y * SIZE + (QUARTER_SIZE * 3));
+      // vertex(this.x * SIZE + (QUARTER_SIZE * 3), this.y * SIZE + (QUARTER_SIZE * 3));
+      // endShape(CLOSE);
       break;
 
     case "PACMAN":
