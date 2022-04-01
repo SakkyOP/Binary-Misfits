@@ -6,13 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../Binary-Misfits/Images/favicon.ico">
     <title>Tetris | Arcade Misfits</title>
+    <link rel="stylesheet" href="/Binary-Misfits/css/loader_for_gamepages.css">
     <link rel="stylesheet" href="/Binary-Misfits/Games/Tetris/Tetris Page/tetrisPage.css">
     <script src="https://kit.fontawesome.com/faecde453e.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body id="body">
+    <div class="main-container-x">
+        <div id="loader">
+            <span class="back">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </span>
+        </div>
+    </div>
     <div class="aboutGame">
-        <div class="gameCard">
+        <a href="/Binary-Misfits/pages/gamePage.html" class="backToHomePage" id="backtotop">
+            <i class="fa-solid fa-angle-left">&ensp;</i>
+            <h3>GAMES</h3>
+          </a>
+        <div class="gameCard" id="gamecard-z">
             <img class="card"
             src="/Binary-Misfits/Games/Tetris/tetris.png" alt="Tetris">
         </div>
@@ -36,9 +54,6 @@
             <li><em>Have Fun!</em></li>
         </ol>
     </div>
-    <a href="/Binary-Misfits/pages/gamePage.html" class="backToHomePage">
-        <i class="fa-solid fa-angle-left">&ensp;</i>
-        <h3>GAMES</h3>
-      </a>
+    <script src="/Binary-Misfits/src/loader_for_game_pages.js"></script>
 </body>
 </html>
